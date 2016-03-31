@@ -11,6 +11,8 @@ buildscript {
 apply plugin: 'kotlin'
 apply plugin: 'application'
 
+mainClassName = 'com.github.ivbaranov.leftpad.leftPad'
+
 repositories {
   mavenCentral()
 }
