@@ -3,7 +3,8 @@
 
 Kotlin implementation of the famous npm [left-pad](http://left-pad.io/) package
 
-# Usage
+Usage
+-----
 
 ```kotlin
 "foo".leftPad(5)
@@ -16,6 +17,21 @@ Kotlin implementation of the famous npm [left-pad](http://left-pad.io/) package
 // => "01"
 ```
 
+Download
+--------
+```groovy
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+}
+```
+```groovy
+dependencies {
+	        compile 'com.github.IvBaranov:left-pad-kotlin:1.0.0'
+}
+```	
 
 Developed By
 ------------
