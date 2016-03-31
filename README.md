@@ -21,15 +21,14 @@ Download
 --------
 ```groovy
 allprojects {
-		repositories {
-			...
-			maven { url "https://jitpack.io" }
-		}
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
 }
 ```
 ```groovy
 dependencies {
-	        compile 'com.github.IvBaranov:left-pad-kotlin:1.0.0'
+    compile 'com.github.IvBaranov:left-pad-kotlin:1.0.0'
 }
 ```	
 

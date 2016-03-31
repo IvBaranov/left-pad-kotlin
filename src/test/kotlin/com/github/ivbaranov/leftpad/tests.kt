@@ -11,7 +11,6 @@ class TestSource {
 
     @Test fun matchLength() {
         assertEquals("foobar", "foobar".leftPad(6))
-
     }
 
     @Test fun withChar() {
