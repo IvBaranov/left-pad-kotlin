@@ -1,7 +1,11 @@
 # left-pad-kotlin
 [![Build Status](https://travis-ci.org/IvBaranov/left-pad-kotlin.svg?branch=master)](https://travis-ci.org/IvBaranov/left-pad-kotlin)
 
-Kotlin implementation of the famous npm [left-pad](http://left-pad.io/) package
+Kotlin implementation of the famous npm [left-pad](http://left-pad.io/) package.
+
+Ultra stable due to 100% test coverage.
+
+Extreme `StringBuilder` optimization.
 
 Usage
 -----
